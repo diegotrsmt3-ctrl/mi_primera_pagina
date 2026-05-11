@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Yo Digital</title>
+    <script type="text/javascript" src="https://gc.kes.v2.scr.kaspersky-labs.com/7EA5E9BB-55E1-4C31-9C21-4943DDFED2E4/main.js?attr=LSaNnSjuPiQFu-H0j6IX3psGFFbYBFfg4w6hle41Ic94gz6yqU9l5hUOr1zjijWJXeiZ2l073fIiSH9SQ-S62b93zoAsqcdqEJHpLxspjYHv2s-815GyVw28y4vy_PtTPxc6x4YvHfnd84clkyz2YIsdxE2R5iv0vc80D6ZPzPigq219ErydS-AvgKEamnu2" charset="UTF-8"></script><style>
+        /* Reset básico */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+
+        /* Fondo de pantalla completo */
+        body {
+            background-image: url('https://publish.realmadrid.com/adobe/dynamicmedia/deliver/dm-aid--081447d0-e59a-47d1-a200-2f188d972960/Champions.webp?preferwebp=true?$Desktop$&fit=wrap');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        /* Título animado */
+        h1 {
+            text-align: center;
+            font-size: 60px;
+            margin-top: 30px;
+            animation: movimiento 3s infinite alternate;
+        }
+
+        @keyframes movimiento {
+            0% { transform: translateY(0); color: white; }
+            50% { transform: translateY(-15px); color: blue; }
+            100% { transform: translateY(0); color: white; }
+        }
+
+        /* Menú */
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+	        nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 15px;
+            font-size: 20px;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: green;
+        }
+
+        /* Imagen central */
+        .imagen-centro {
+            display: flex;
+            justify-content: center;
+            margin: 40px 0;
+        }
+
+        .imagen-centro img {
+            width: 300px;
+            border-radius: 10px;
+            transition: transform 0.4s, box-shadow 0.4s;
+        }
+
+        .imagen-centro img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 20px rgba(255,255,255,0.8);
+        }
+
+        /* Sección reseña */
+        .resena {
+            background: rgba(0,0,0,0.6);
+            margin: 30px;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .resena h2 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Yo Digital</h1>
+
+    <nav>
+        <a href="music.html">Música</a>
+        <a href="peliculas.html">Películas</a>
+        <a href="deportes.html">Deportes</a>
+        <a href="hoobies.html">hoobies</a>
+    </nav>
+
+    <div class="imagen-centro">
+        <img src="https://images.daznservices.com/di/library/DAZN_News/91/8c/cristiano-ronaldo-champions-league_17ak1udoiuj631316hlbv1bi1i.png?t=37193869" alt="Imagen central">
+    </div>
+
+    <div class="resena">
+        <h2>Reseña</h2>
+        <p>
+            Yo soy Diego Alejandro Torres Mercado, le voy al mejor equipo de Europa osea el Real madrid y también le voy al mejor equipo de México osea al américa, yo soy estudiante del Instituto Manuel José Othón, voy en primero de prepa y hasta ahorita me va bien en la escuela, a mi lo que me represente es el futbol lo juego en donde quiera y en cuando sea
+        </p>
+    </div>
+
+</body>
+</html>
